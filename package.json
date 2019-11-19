@@ -1,0 +1,32 @@
+{
+  "name": "varie-bundler-tailwindcss-plugin",
+  "version": "0.0.1",
+  "description": "Easily Integrate Tailwindcss into your Varie project",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "installPeers": "npm install --no-save varie-bundler"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/variejs/tailwincss-builder-plugin.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/variejs/tailwincss-builder-plugin/issues"
+  },
+  "homepage": "https://github.com/variejs/tailwincss-builder-plugin#readme",
+  "peerDependencies": {
+    "varie-bundler": "^2.0.5"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.1.3"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}
