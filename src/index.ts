@@ -7,7 +7,7 @@ export default class TailwindCssPlugin extends Plugin<undefined> {
       .rule("sass")
       .oneOf("normal")
       .use("postcss-loader")
-      .tap((options) => {
+      .tap(options => {
         options.plugins.unshift(TailwindCss);
         return options;
       });
@@ -16,7 +16,7 @@ export default class TailwindCssPlugin extends Plugin<undefined> {
       .rule("sass")
       .oneOf("vue")
       .use("postcss-loader")
-      .tap((options) => {
+      .tap(options => {
         options.plugins.unshift(TailwindCss);
         return options;
       });
