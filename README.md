@@ -2,7 +2,9 @@
 
 ## Getting Started
 
-Insert the plugin into your webpack.json.ts file :
+`npm install varie-bundler-tailwindcss-plugin --save-dev `
+
+Then Insert the plugin into your webpack.json.ts file :
 
 ```js
 import { WebBundler } from "varie-bundler";
